@@ -1,3 +1,6 @@
+/*--------------------FOOTER--------------------------*/
+
+
 $letraTitulo: 'The Nautigal', cursive;
 $letraFooter: 'Montaga', serif;
 $colorLetra: rgb(248, 248, 234);
@@ -14,7 +17,6 @@ $radioBordeHover: 30px;
 $fondoBotonActivo: rgb(34, 34, 34);
 $colorBotonActivo: rgb(189, 16, 16);
 
-
 #irAlFooter {
 
     grid-area: footer;
@@ -24,8 +26,6 @@ $colorBotonActivo: rgb(189, 16, 16);
     font-family: $letraFooter;
     color: $colorLetra;
     text-align: center;
-
-
 
     .sobreNosotros {
 
