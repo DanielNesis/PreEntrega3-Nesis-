@@ -1,0 +1,115 @@
+$letraContacto: 'Montaga', serif;
+$letraTitulo: 'The Nautigal', cursive;
+$fondoTitulo: rgb(240, 240, 240);
+$tamanioTitulo: 100px;
+
+.mainContacto {
+
+    font-family: $letraContacto;
+
+    .titulo {
+
+        margin-top: 30px;
+        font-family: $letraTitulo;
+        font-size: $tamanioTitulo;
+        height: 140px;
+        text-align: center;
+        background-color: $fondoTitulo;
+    }
+
+    p {
+        margin: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+
+    form {
+
+        fieldset {
+
+            border: 4px double black;
+            border-radius: 10px;
+
+
+            legend{
+                text-align: center;
+                text-decoration: underline;
+                
+            }
+          
+           
+            .nombreyapellido {
+                margin: 20px;
+                margin-left: 10px;
+
+                input {
+
+                    width: 150px;
+                    padding: 2.5px;
+                    transition: width 0.5s;
+                }
+
+                input:focus {
+
+                    width: 500px;
+                }
+
+
+            }
+
+            .email {
+
+                @extend .nombreyapellido;
+
+            }
+
+            .telefono {
+
+                @extend .nombreyapellido;
+
+            }
+
+        }
+    }
+
+
+
+    .producto {
+
+        fieldset{
+
+        margin-top: 20px;
+
+    }
+
+    .guitarraelectrica {
+        margin: 20px;
+        margin-left: 10px;
+    }
+
+
+    .guitarraacustica {
+
+        @extend .guitarraelectrica;
+    }
+
+    .bajo {
+
+        @extend .guitarraelectrica;
+    }
+    
+    .amplificador{
+
+        @extend .guitarraelectrica;}
+
+
+
+    .comentario {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    }
+}

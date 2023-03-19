@@ -1,0 +1,81 @@
+$letraTitulo: 'The Nautigal', cursive;
+$fondoTitulo:rgb(240, 240, 240);
+$tamanioTitulo: 100px;
+
+$letraInstrumento: 'Montaga', serif;
+$tamanioLetraInstrumento: large;
+$bordeInstrumento: 3px double rgb(175, 175, 175);
+
+.guitarrasElectricas{
+
+    main{
+
+    .titulo{
+
+        margin-top: 30px;
+        font-family:$letraTitulo;
+        font-size: $tamanioTitulo;
+        height: 140px;
+        text-align: center;
+        background-color: $fondoTitulo;
+}
+    }
+
+    .instrumento1, .instrumento2, .instrumento3, .instrumento4 {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        text-align: center;
+        justify-content: space-evenly;
+        border: $bordeInstrumento ;
+        padding: 30px;
+        margin-bottom: 30px;
+        font-family: $letraInstrumento;
+        font-size:$tamanioLetraInstrumento;
+        font-weight: bold;
+    } 
+
+    img{
+        
+        border-radius: 20px;
+    }
+
+    p{
+        margin-top: 15px;
+    }
+
+   
+    
+    }
+
+    .guitarrasAcusticas{
+
+        @extend .guitarrasElectricas;
+    }
+ 
+ 
+    .bajos{
+
+        @extend .guitarrasElectricas;
+    }
+
+    .amp{
+
+        @extend .guitarrasElectricas;
+    }
+
+    @mixin fontsize{
+
+       p {font-size: 21px}
+    }  
+
+    .consignaciones{
+
+        @extend .guitarrasElectricas;
+        font-family: $letraInstrumento;
+        text-align: center;
+       background-color: rgb(252, 252, 252);
+       @include fontsize();
+      
+        }

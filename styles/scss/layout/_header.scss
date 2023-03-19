@@ -1,0 +1,146 @@
+$colorFondo1: rgba(255, 166, 31, 0.829);
+$colorFondo2: rgb(102, 22, 22);
+$letraNav: 'Montaga', serif;
+$colorFondoNav: rgb(250, 250, 250);
+$bordeNav: 3px double rgb(200, 200, 200);
+
+$fondoBotonHover: rgb(150, 9, 9);
+$colorBotonHover: white;
+$bordeBotonHover: 3px double orange;
+$radioBordeHover: 30px;
+
+$fondoBotonActivo: rgb(34, 34, 34);
+$colorBotonActivo: rgb(189, 16, 16);
+
+
+header {
+    grid-area: header;
+
+    background: linear-gradient($colorFondo1, $colorFondo2);
+
+
+
+    .inicio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+
+        a {
+
+            img {
+                width: 130px;
+                transition: width 0.5s;
+
+
+                &:hover {
+
+                    width: 140px;
+                }
+            }
+        }
+    }
+
+
+
+    .buscador {
+
+        padding-top: 45px;
+
+        input {
+
+            width: 300px;
+            padding: 10px;
+            background-color: $colorFondoNav;
+            border-radius: $radioBordeHover;
+            font-size: 15px;
+            transition: all 1s;
+
+
+        }
+
+
+
+
+        input:focus {
+
+            width: 600px;
+        }
+
+
+        img {
+            width: 50px;
+        }
+
+    }
+
+
+    .logo img {
+        width: 130px;
+    }
+
+
+    nav {
+        grid-area: nav;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            list-style: none;
+
+
+            li {
+                display: flex;
+
+                a {
+
+
+                    text-align: center;
+                    justify-content: center;
+                    text-decoration: none;
+                    color: black;
+                    background-color: $colorFondoNav;
+                    border: $bordeNav;
+                    margin-top: 30px;
+                    padding: 10px;
+                    width: 180px;
+                    border-radius: 30px;
+                    font-family: $letraNav;
+                    font-size: 16px;
+                    transition: all 0.5s;
+
+
+                    &:hover {
+
+                        background-color: $fondoBotonHover;
+                        color: $colorBotonHover;
+                        border-radius: $radioBordeHover;
+                        border: $bordeBotonHover;
+                        font-size: 17px;
+
+                    }
+
+                    &:active {
+
+                        background-color: $fondoBotonActivo;
+                        color: $colorBotonActivo;
+                    }
+                }
+
+            }
+
+        }
+
+
+
+    }
+
+
+
+
+}

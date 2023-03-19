@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="../Img/jazz-icon-3.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../styles/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guitar Master| Instrumentos Musicales| Consignaciones</title>
 
@@ -19,7 +19,10 @@
          <!--Bootstrap Link CDN-->
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
- 
+         <!--AOS-->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 
@@ -29,6 +32,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
+    <!--AOS JS-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+     AOS.init();
+    </script>
   
     <!--Inicio-->
 
@@ -40,6 +50,14 @@
                 <a href="../index.html"><img src="../Img/jazz-icon-3.png" alt="home" id="arriba"></a>
     
             </div>
+
+            <form class="buscador">
+                 
+                <input type="text" id="buscador" placeholder="Buscar">
+                 
+                <a href=""><img class="search-icon" src="https://blog.expertrec.com/search-icon-1/"></a>
+            
+            </form>
     
     
             <div class="abajo">
@@ -80,12 +98,10 @@
     <main>
 
 
-        <div class="vender">
-
-        <h1>Vender</h1>
+        <h1 data-aos="flip-left" class="titulo">Vender</h1>
         
        
-        <div >
+        <div>
         <p>En Guitar Master nos encantaría vender tu instrumento. Siempre estamos buscando agregar nuevo stock a nuestro catálogo, más si se trata de guitarras vintage y raras en excelente estado.</p>
         </div>
           
@@ -116,10 +132,10 @@
 
     <footer id="irAlFooter">
 
-        <div class="footerConsignaciones">
+        <div data-aos="fade-up" class="footer">
 
 
-            <div class="logoFooter">
+            <div>
                     <a href="../index.html"><img src="../Img/jazz-icon-3.png" alt="Home"></a>
 
             </div>
@@ -152,7 +168,7 @@
                   
         </div>
 
-        <div class="redes">
+        <div data-aos="fade-up" class="redes">
 
             <a href="https://www.facebook.com/CarterVintage" target="_blank"><img src="../Img/Facebook logo.png"
                     alt="facebook"> </a>
@@ -171,8 +187,7 @@
 
             </div>
 
-
-            <form class="suscribite">
+            <form  class="suscribite">
 
                 <label for="suscribite">SUSCRIBITE A NUESTRO NEWSLETTER</label>
                 <input type="email" id="email" placeholder="Ingresa tu email">
@@ -180,6 +195,7 @@
                 <input type="submit" value="Enviar">
 
             </form>
+           
 
 
 

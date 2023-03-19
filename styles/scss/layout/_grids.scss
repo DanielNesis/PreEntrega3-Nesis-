@@ -1,0 +1,90 @@
+
+/*-------------------------------GRIDS---------------------------*/
+
+.index {
+    min-height: 150vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "main   main  main"
+                         "footer footer footer";
+
+    grid-template-columns: 200px auto 1fr;
+    grid-template-rows: 240px 1950px 1550px;
+
+}
+
+
+
+.guitarrasElectricas {
+    min-height: 150vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "main   main  main"
+                         "footer footer footer";
+
+    grid-template-columns: 200px auto 1fr;
+    grid-template-rows: 240px 1fr 800px;
+
+
+
+}
+
+.guitarrasAcusticas {
+    min-height: 150vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "main   main  main"
+                         "footer footer footer";
+
+    grid-template-columns: 200px auto 1fr;
+    grid-template-rows: 240px 1fr 800px;
+}
+
+
+.bajos {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "main   main  main"
+                         "footer footer footer";
+
+    grid-template-columns: 200px auto 1fr;
+    grid-template-rows: 240px 1fr 800px;
+
+
+}
+
+
+.amp {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                          "main   main  main"
+                         "footer footer footer";
+
+    grid-template-columns: 200px auto 1fr;
+    grid-template-rows: 240px 1fr 800px;
+}
+
+
+.consignaciones {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                          "main   main  main"
+                         "footer footer footer";
+
+    grid-template-columns: 200px auto 1fr;
+    grid-template-rows: 240px 450px 800px;
+}
+
+.contacto {
+    min-height: 150vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "main   main  main"
+            "footer footer footer";
+
+    grid-template-columns: 200px auto 1fr;
+    grid-template-rows: 240px 1000px 1450px;
+}
