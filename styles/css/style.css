@@ -698,14 +698,14 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 970px 4450px 900px;
+    grid-template-rows: 1000px 4450px 1000px;
   }
   header .inicio .buscador input {
     width: 150px;
     margin-right: 70px;
   }
   main h1.titulo.aos-init.aos-animate {
-    font-size: 58px;
+    font-size: 50px;
   }
   main .container .instrumento1 iframe, main .container .instrumento2 iframe, main .container .instrumento3 iframe, main .container .instrumento4 iframe {
     width: 300px;
