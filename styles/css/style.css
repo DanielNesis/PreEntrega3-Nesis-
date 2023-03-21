@@ -538,7 +538,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     display: none;
   }
   #irAlFooter .redes {
-    margin-left: 30px;
+    margin-left: 20px;
   }
   #irAlFooter .redes img {
     width: 40px;
@@ -927,7 +927,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     width: 148px;
   }
   .mainContacto form .producto .guitarraelectrica select, .mainContacto form .producto .guitarraacustica select, .mainContacto form .producto .bajo select, .mainContacto form .producto .amplificador select {
-    width: 250px;
+    width: 280px;
   }
 }
 
