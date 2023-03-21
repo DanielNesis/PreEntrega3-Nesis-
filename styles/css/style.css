@@ -921,13 +921,13 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 940px 1300px 1400px;
+    grid-template-rows: 940px 1400px 1500px;
   }
   header .inicio .buscador input {
     width: 148px;
   }
   .mainContacto form .producto .guitarraelectrica select, .mainContacto form .producto .guitarraacustica select, .mainContacto form .producto .bajo select, .mainContacto form .producto .amplificador select {
-    width: 130px;
+    width: 250px;
   }
 }
 
