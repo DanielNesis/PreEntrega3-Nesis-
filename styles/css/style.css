@@ -921,7 +921,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 970px 1300px 1600px;
+    grid-template-rows: 940px 1300px 1400px;
   }
   header .inicio .buscador input {
     width: 148px;
