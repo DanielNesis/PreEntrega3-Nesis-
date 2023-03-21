@@ -1,3 +1,5 @@
+/*--------------------HEADER & NAV-----------------------*/
+
 $colorFondo1: rgba(255, 166, 31, 0.829);
 $colorFondo2: rgb(102, 22, 22);
 $letraNav: 'Montaga', serif;
@@ -59,20 +61,16 @@ header {
             font-size: 15px;
             transition: all 1s;
 
-
-        }
-
-
-
-
-        input:focus {
+        &:hover,
+        &:focus {
 
             width: 600px;
+            border: 0px;
         }
-
+    }
 
         img {
-            width: 50px;
+            width: 70px;
         }
 
     }

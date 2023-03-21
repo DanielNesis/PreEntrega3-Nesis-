@@ -1,0 +1,1152 @@
+/*-----------------------------------Media Queries Index 1081px-----------------------------------------*/
+
+
+@media screen and (max-width: 1081px) {
+
+    .index {
+        min-height: 150vh;
+        grid-template-areas: "header main"
+            "header main"
+            "header footer";
+
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1fr 1750px 1700px;
+
+    }
+
+    header {
+
+        .inicio {
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: center;
+
+
+            .buscador {
+
+                input {
+                    width: 195px;
+                }
+
+                img {
+
+                    margin-left: 60px;
+                }
+            }
+
+            .abajo {
+
+                margin-top: 25px;
+                margin-left: 20px;
+            }
+
+        }
+
+        nav {
+
+            ul {
+
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: -20px;
+
+                li {
+                    margin-top: 20px;
+
+                }
+
+            }
+        }
+
+
+    }
+
+
+
+
+}
+
+
+/*-------------------------------Media Queries Index 825px--------------------------------------------------*/
+
+
+@media screen and (max-width: 825px) {
+
+    .index {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+            "main"
+            "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 4350px 1720px;
+
+    }
+
+
+    header {
+
+        .inicio {
+
+            align-items: center;
+
+            .buscador {
+
+                input {
+                    width: 250px;
+                    margin-left: 100px;
+
+                }
+
+                img {
+
+                    margin-left: 0px;
+                }
+            }
+
+            .abajo {
+
+                margin-left: 30px;
+            }
+        }
+
+        nav {
+
+            ul {
+
+                align-content: center;
+
+                li {
+                    margin-top: 20px;
+
+                }
+
+            }
+        }
+
+
+    }
+
+
+}
+
+/*-------------------------------Media Queries Index 585px--------------------------------------------------*/
+
+
+@media screen and (max-width: 585px) {
+
+    .index {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+            "main"
+            "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 4350px 1720px;
+
+    }
+
+    header {
+
+        .inicio {
+            .buscador {
+
+                input {
+
+                    margin-left: 36px;
+                }
+
+                img {
+
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+    #irAlFooter {
+
+        .sobreNosotros {
+
+            font-size: 15px;
+
+            h2 {
+                font-size: 80px;
+            }
+        }
+
+        .footer {
+
+            img {
+                display: none;
+            }
+
+            .arriba {
+
+                display: none;
+            }
+        }
+
+
+        .redes {
+
+            margin-left: 30px;
+
+            img {
+                width: 40px;
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 493px) {
+
+    .index {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+            "main"
+            "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 4400px 1720px;
+
+    }
+
+
+    main {
+
+        .ultimosingresos {
+
+
+
+            font-size: 64px;
+            text-align: center;
+
+        }
+    }
+
+
+    #irAlFooter {
+
+
+
+        .footer {
+
+            .navFooter {
+
+                ul {
+
+                    margin-left: 70px;
+
+                    li {
+
+                        a {
+                            font-size: 14px;
+                            width: 140px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
+
+/*-------------------------Media Queries Guitarras Electricas/Acusticas/Bajos/Amp/Consignaciones 1081px-------*/
+
+
+@media screen and (max-width:1081px) {
+
+
+    .guitarrasElectricas,
+    .guitarrasAcusticas,
+    .bajos,
+    .amp,
+    .consignaciones {
+
+        min-height: 150vh;
+
+        grid-template-areas: "header main"
+            "header footer";
+
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1fr 850px;
+    }
+
+
+    header {
+
+        .inicio {
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: center;
+
+
+            .buscador {
+
+                input {
+                    width: 195px;
+                }
+
+                img {
+
+                    margin-left: 60px;
+                }
+            }
+
+            .abajo {
+
+                margin-top: 25px;
+            }
+
+        }
+
+        nav {
+
+            ul {
+
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: -20px;
+
+                li {
+                    margin-top: 20px;
+
+                }
+
+            }
+        }
+
+
+    }
+
+    main {
+
+        .container {
+
+            .instrumento1,
+            .instrumento2,
+            .instrumento3,
+            .instrumento4 {
+
+                flex-direction: column;
+                align-items: center;
+
+
+                iframe {
+
+                    margin-top: 20px;
+                }
+
+                .consultar {
+
+                    a {
+
+                        margin-top: 40px;
+
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+
+
+}
+
+
+/*-------------------------------Media Queries Guitarras Electricas/Acusticas 825px-------*/
+
+
+@media screen and (max-width: 825px) {
+
+    .guitarrasElectricas,
+    .guitarrasAcusticas {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 4450px 800px;
+
+    }
+
+
+    header {
+
+        .inicio {
+
+            align-items: center;
+
+            .logo{
+
+                a{
+                    img{
+                margin-left: 40px;
+                    }
+                }
+                
+            }
+
+            .buscador {
+
+                input {
+                    width: 250px;
+                    margin-left: 100px;
+
+                }
+
+                img {
+
+                    margin-left: 0px;
+                }
+            }
+
+            .abajo {
+
+                margin-left: 45px;
+            }
+        }
+
+        nav {
+
+            ul {
+
+                align-content: center;
+
+                li {
+                    margin-top: 20px;
+
+                }
+
+            }
+        }
+
+
+    }
+
+
+}
+
+/*-------------------------------Media Queries Guitarras Electricas/Acusticas 767px-------*/
+
+
+@media screen and (max-width: 767px) {
+
+    .guitarrasElectricas,
+    .guitarrasAcusticas
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 4450px 800px;
+
+    }
+
+    main{
+
+        .container{
+
+            .instrumento1, .instrumento2, .instrumento3, .instrumento4{
+
+                iframe{
+
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
+
+/*-------------------------------Media Queries Guitarras Electricas/Acusticas 585px-------*/
+
+@media screen and (max-width: 585px) {
+
+    .guitarrasElectricas,
+    .guitarrasAcusticas
+     {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 4450px 800px;
+
+    }
+
+
+    header{
+
+        .inicio{
+
+            .buscador{
+
+                input{
+                    width: 200px;
+                    margin-right: 70px;
+                }
+            }
+        }
+    }
+
+}
+
+/*-------------------------------Media Queries Guitarras Electricas/Acusticas 523px-------*/
+
+@media screen and (max-width: 523px) {
+
+    .guitarrasElectricas,
+    .guitarrasAcusticas
+     {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 4450px 800px;
+
+    }
+
+
+   main{
+
+    h1.titulo.aos-init.aos-animate{
+
+        font-size: 74px;
+        
+    }
+   
+
+        .container{
+
+            .instrumento1, .instrumento2, .instrumento3, .instrumento4{
+
+                iframe{
+
+                    width: 400px;
+                }
+            }
+        }
+    
+
+
+        
+    }
+}
+
+/*-------------------------------Media Queries Guitarras Electricas/Acusticas 396px-------*/
+
+@media screen and (max-width: 396px) {
+
+    .guitarrasElectricas,
+    .guitarrasAcusticas
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 4450px 800px;
+
+    }
+
+    header{
+
+        .inicio{
+
+            
+            .buscador{
+
+                input{
+                    width: 150px;
+                    margin-right: 70px;
+                }
+            }
+        }
+    }
+
+
+
+    main{
+
+        h1.titulo.aos-init.aos-animate{
+
+            font-size: 61px;
+            
+        }
+
+    .container{
+
+        .instrumento1, .instrumento2, .instrumento3, .instrumento4{
+
+            iframe{
+
+                width: 300px;
+            }
+        }
+ 
+       } 
+      }
+}
+
+/*-------------------------------Media Queries Bajos 825px-----------------------------------------------*/
+
+
+@media screen and (max-width: 825px) {
+
+    .bajos
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 2350px 800px;
+
+    }
+
+
+ 
+
+
+}
+
+/*-------------------------------Media Queries Bajos 767px-------*/
+
+
+@media screen and (max-width: 767px) {
+
+    
+    .bajos
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 2350px 800px;
+
+    }
+
+  
+}
+
+/*-------------------------------Media Queries Bajos 585px-------*/
+
+@media screen and (max-width: 585px) {
+
+    
+    .bajos
+     {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 2350px 800px;
+
+    }
+
+
+
+}
+
+/*-------------------------------Media Queries Bajos 523px-------*/
+
+@media screen and (max-width: 523px) {
+
+    
+    .bajos
+     {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 2350px 800px;
+
+    }
+
+
+   
+}
+
+/*-------------------------------Media Queries Bajos 396px-------*/
+
+@media screen and (max-width: 396px) {
+
+    
+    .bajos
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 2350px 800px;
+
+    }
+
+   
+}
+
+/*-------------------------------Media Queries amp 825px-----------------------------------------------*/
+
+
+@media screen and (max-width: 825px) {
+
+    .amp
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 3400px 800px;
+
+    }
+
+
+  
+
+}
+
+/*-------------------------------Media Queries amp 767px-------*/
+
+
+@media screen and (max-width: 767px) {
+
+    
+    .amp
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 3400px 800px;
+
+    }
+
+   
+}
+
+/*-------------------------------Media Queries amp 585px-------*/
+
+@media screen and (max-width: 585px) {
+
+    
+    .amp
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 3400px 800px;
+
+    }
+   
+}
+
+/*-------------------------------Media Queries Amp 523px-------*/
+
+@media screen and (max-width: 523px) {
+
+    
+    .amp
+     {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 3500px 800px;
+
+    }
+
+
+}
+
+/*-------------------------------Media Queries Amp 396px-------*/
+
+@media screen and (max-width: 396px) {
+
+    
+    .amp
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 3500px 800px;
+
+    }
+
+   
+}
+
+/*-------------------------------Media Queries Consignaciones 825px-----------------------------------------------*/
+
+
+@media screen and (max-width: 825px) {
+
+    .consignaciones
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 550px 800px;
+
+    }
+
+
+  
+
+}
+
+/*-------------------------------Media Queries Consignaciones 767px-------*/
+
+
+@media screen and (max-width: 767px) {
+
+    
+    .consignaciones
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 650px 800px;
+
+    }
+
+   
+}
+
+/*-------------------------------Media Queries Consignaciones 585px-------*/
+
+@media screen and (max-width: 585px) {
+
+    
+    .consignaciones
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 650px 800px;
+
+    }
+   
+}
+
+/*-------------------------------Media Queries Consignaciones 523px-------*/
+
+@media screen and (max-width: 523px) {
+
+    
+    .consignaciones
+     {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 750px 800px;
+
+    }
+
+
+}
+
+/*-------------------------------Media Queries Consignaciones 396px-------*/
+
+@media screen and (max-width: 396px) {
+
+    
+    .consignaciones
+    {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+                              "main"
+                             "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 850px 800px;
+
+    }
+
+   
+}
+
+/*-----------------------------------Media Queries CONTACTO 1081px-----------------------------------------*/
+
+
+@media screen and (max-width: 1081px) {
+
+    .contacto {
+        min-height: 150vh;
+        grid-template-areas: "header main"
+                             "header main"
+                             "header footer";
+
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1fr 1050px 1450px;
+
+    }
+    
+    header {
+
+        .inicio {
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: center;
+
+
+            .buscador {
+
+                input {
+                    width: 195px;
+                }
+
+                img {
+
+                    margin-left: 60px;
+                }
+            }
+
+            .abajo {
+
+                margin-top: 25px;
+            }
+
+        }
+
+        nav {
+
+            ul {
+
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: -20px;
+
+                li {
+                    margin-top: 20px;
+
+                }
+
+            }
+        }
+
+
+    }
+
+
+
+
+}
+
+/*-------------------------------Media Queries Contacto 825px--------------------------------------------------*/
+
+
+@media screen and (max-width: 825px) {
+
+    .contacto {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+            "main"
+            "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 1050px 1520px;
+
+    }
+
+
+    header {
+
+        .inicio {
+
+            align-items: center;
+
+            .buscador {
+
+                input {
+                    width: 250px;
+                    margin-left: 100px;
+
+                }
+
+                img {
+
+                    margin-left: 0px;
+                }
+            }
+
+            .abajo {
+
+                margin-left: 30px;
+            }
+        }
+
+        nav {
+
+            ul {
+
+                align-content: center;
+
+                li {
+                    margin-top: 20px;
+
+                }
+
+            }
+        }
+
+
+    }
+
+
+}
+
+/*-------------------------------Media Queries Contacto 705px--------------------------------------------------*/
+
+
+@media screen and (max-width: 705px) {
+
+    .contacto {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+            "main"
+            "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 1300px 1520px;
+
+    }
+
+
+   
+    }
+
+    /*-------------------------------Media Queries Contacto 705px--------------------------------------------------*/
+
+
+@media screen and (max-width: 419px) {
+
+    .contacto {
+        min-height: 150vh;
+        grid-template-areas: "header"
+
+            "main"
+            "footer";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 920px 1300px 1520px;
+
+    }
+
+    header{
+
+        .inicio{
+
+            .buscador{
+
+                input{width: 148px;}
+            }
+        }
+    }
+
+
+    .mainContacto{
+
+
+        form{
+
+            .producto{
+
+
+                .guitarraelectrica{
+
+                    select{
+
+                        width: 130px;
+                    }
+                }
+            }
+        }
+
+
+
+
+    }
+
+
+   
+    }
+
+
+
