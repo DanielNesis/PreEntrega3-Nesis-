@@ -12,7 +12,7 @@
   display: grid;
   grid-template-areas: "header header header" "main   main  main" "footer footer footer";
   grid-template-columns: 200px auto 1fr;
-  grid-template-rows: 240px 1950px 1550px;
+  grid-template-rows: 240px 1950px 1540px;
 }
 
 .guitarrasElectricas, .consignaciones, .amp, .bajos, .guitarrasAcusticas {
@@ -20,39 +20,7 @@
   display: grid;
   grid-template-areas: "header header header" "main   main  main" "footer footer footer";
   grid-template-columns: 200px auto 1fr;
-  grid-template-rows: 240px 1fr 800px;
-}
-
-.guitarrasAcusticas {
-  min-height: 150vh;
-  display: grid;
-  grid-template-areas: "header header header" "main   main  main" "footer footer footer";
-  grid-template-columns: 200px auto 1fr;
-  grid-template-rows: 240px 1fr 800px;
-}
-
-.bajos {
-  min-height: 100vh;
-  display: grid;
-  grid-template-areas: "header header header" "main   main  main" "footer footer footer";
-  grid-template-columns: 200px auto 1fr;
-  grid-template-rows: 240px 1fr 800px;
-}
-
-.amp {
-  min-height: 100vh;
-  display: grid;
-  grid-template-areas: "header header header" "main   main  main" "footer footer footer";
-  grid-template-columns: 200px auto 1fr;
-  grid-template-rows: 240px 1fr 800px;
-}
-
-.consignaciones {
-  min-height: 100vh;
-  display: grid;
-  grid-template-areas: "header header header" "main   main  main" "footer footer footer";
-  grid-template-columns: 200px auto 1fr;
-  grid-template-rows: 240px 450px 800px;
+  grid-template-rows: 240px 1fr 880px;
 }
 
 .contacto {
@@ -60,7 +28,7 @@
   display: grid;
   grid-template-areas: "header header header" "main   main  main" "footer footer footer";
   grid-template-columns: 200px auto 1fr;
-  grid-template-rows: 240px 1000px 1450px;
+  grid-template-rows: 240px 1000px 1480px;
 }
 
 /*--------------------HEADER & NAV-----------------------*/
@@ -152,7 +120,7 @@ header nav ul li a:active {
   border-radius: 30px;
   border: 3px double white;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-size: 16px;
   transition: all 0.5s;
 }
@@ -171,14 +139,14 @@ header nav ul li a:active {
   display: flex;
   text-decoration: none;
   margin-top: 170px;
-  width: 130px;
+  width: 150px;
   padding: 23px;
   justify-content: center;
   background-color: black;
   border-radius: 30px;
   border: 3px double white;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-size: normal;
   transition: font-size 0.5s;
 }
@@ -227,6 +195,12 @@ main .guitarrasindex .item1, main .guitarrasindex .item6, main .guitarrasindex .
 main .guitarrasindex .item1 img, main .guitarrasindex .item6 img, main .guitarrasindex .item5 img, main .guitarrasindex .item4 img, main .guitarrasindex .item3 img, main .guitarrasindex .item2 img {
   margin-top: 30px;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 250px;
+  transition: width 0.5s;
+}
+main .guitarrasindex .item1 img:hover, main .guitarrasindex .item6 img:hover, main .guitarrasindex .item5 img:hover, main .guitarrasindex .item4 img:hover, main .guitarrasindex .item3 img:hover, main .guitarrasindex .item2 img:hover {
+  width: 270px;
 }
 main .guitarrasindex .item1 p, main .guitarrasindex .item6 p, main .guitarrasindex .item5 p, main .guitarrasindex .item4 p, main .guitarrasindex .item3 p, main .guitarrasindex .item2 p {
   margin-top: 15px;
@@ -300,18 +274,18 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
 #irAlFooter .footer img:hover {
   width: 190px;
 }
-#irAlFooter .navFooter {
+#irAlFooter .footer .navFooter {
   margin-right: 100px;
 }
-#irAlFooter .navFooter ul {
+#irAlFooter .footer .navFooter ul {
   list-style-type: none;
   line-height: 35px;
 }
-#irAlFooter .navFooter ul li {
+#irAlFooter .footer .navFooter ul li {
   display: flex;
   justify-content: center;
 }
-#irAlFooter .navFooter ul li a {
+#irAlFooter .footer .navFooter ul li a {
   text-decoration: none;
   color: black;
   background-color: rgb(250, 250, 250);
@@ -323,14 +297,14 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
   font-size: 16px;
   transition: all 0.5s;
 }
-#irAlFooter .navFooter ul li a:hover {
+#irAlFooter .footer .navFooter ul li a:hover {
   background-color: rgb(150, 9, 9);
   color: white;
   border-radius: 30px;
   border: 3px double orange;
   font-size: 17px;
 }
-#irAlFooter .navFooter ul li a:active {
+#irAlFooter .footer .navFooter ul li a:active {
   background-color: rgb(34, 34, 34);
   color: rgb(189, 16, 16);
 }
@@ -361,9 +335,17 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
   margin-top: 20px;
   color: white;
 }
+#irAlFooter .registro p {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  background-color: black;
+  padding: 12px;
+  font-size: 15px;
+}
 
 /*--------------------MAIN GUIT ELEC/GUIT ACUST/BAJOS/AMPS--------------------------*/
-.guitarrasElectricas main .titulo, .consignaciones main .titulo, .amp main .titulo, .bajos main .titulo, .guitarrasAcusticas main .titulo {
+.guitarrasElectricas main .titulo, .guitarrasAcusticas main .titulo, .bajos main .titulo, .amp main .titulo, .consignaciones main .titulo {
   margin-top: 30px;
   font-family: "The Nautigal", cursive;
   font-size: 100px;
@@ -371,7 +353,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
   text-align: center;
   background-color: rgb(240, 240, 240);
 }
-.guitarrasElectricas .instrumento1, .consignaciones .instrumento1, .amp .instrumento1, .bajos .instrumento1, .guitarrasAcusticas .instrumento1, .guitarrasElectricas .instrumento2, .consignaciones .instrumento2, .amp .instrumento2, .bajos .instrumento2, .guitarrasAcusticas .instrumento2, .guitarrasElectricas .instrumento3, .consignaciones .instrumento3, .amp .instrumento3, .bajos .instrumento3, .guitarrasAcusticas .instrumento3, .guitarrasElectricas .instrumento4, .consignaciones .instrumento4, .amp .instrumento4, .bajos .instrumento4, .guitarrasAcusticas .instrumento4 {
+.guitarrasElectricas main .instrumento1, .guitarrasElectricas main .instrumento4, .guitarrasElectricas main .instrumento3, .guitarrasElectricas main .instrumento2, .guitarrasAcusticas main .instrumento1, .guitarrasAcusticas main .instrumento4, .guitarrasAcusticas main .instrumento3, .guitarrasAcusticas main .instrumento2, .bajos main .instrumento1, .bajos main .instrumento4, .bajos main .instrumento3, .bajos main .instrumento2, .amp main .instrumento1, .amp main .instrumento4, .amp main .instrumento3, .amp main .instrumento2, .consignaciones main .instrumento1, .consignaciones main .instrumento4, .consignaciones main .instrumento3, .consignaciones main .instrumento2 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -384,20 +366,25 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
   font-size: large;
   font-weight: bold;
 }
-.guitarrasElectricas img, .consignaciones img, .amp img, .bajos img, .guitarrasAcusticas img {
+.guitarrasElectricas main .instrumento1 img, .guitarrasElectricas main .instrumento4 img, .guitarrasElectricas main .instrumento3 img, .guitarrasElectricas main .instrumento2 img, .guitarrasAcusticas main .instrumento1 img, .guitarrasAcusticas main .instrumento4 img, .guitarrasAcusticas main .instrumento3 img, .guitarrasAcusticas main .instrumento2 img, .bajos main .instrumento1 img, .bajos main .instrumento4 img, .bajos main .instrumento3 img, .bajos main .instrumento2 img, .amp main .instrumento1 img, .amp main .instrumento4 img, .amp main .instrumento3 img, .amp main .instrumento2 img, .consignaciones main .instrumento1 img, .consignaciones main .instrumento4 img, .consignaciones main .instrumento3 img, .consignaciones main .instrumento2 img {
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 250px;
+  transition: width 0.5s;
 }
-.guitarrasElectricas p, .consignaciones p, .amp p, .bajos p, .guitarrasAcusticas p {
+.guitarrasElectricas main .instrumento1 img:hover, .guitarrasElectricas main .instrumento4 img:hover, .guitarrasElectricas main .instrumento3 img:hover, .guitarrasElectricas main .instrumento2 img:hover, .guitarrasAcusticas main .instrumento1 img:hover, .guitarrasAcusticas main .instrumento4 img:hover, .guitarrasAcusticas main .instrumento3 img:hover, .guitarrasAcusticas main .instrumento2 img:hover, .bajos main .instrumento1 img:hover, .bajos main .instrumento4 img:hover, .bajos main .instrumento3 img:hover, .bajos main .instrumento2 img:hover, .amp main .instrumento1 img:hover, .amp main .instrumento4 img:hover, .amp main .instrumento3 img:hover, .amp main .instrumento2 img:hover, .consignaciones main .instrumento1 img:hover, .consignaciones main .instrumento4 img:hover, .consignaciones main .instrumento3 img:hover, .consignaciones main .instrumento2 img:hover {
+  width: 270px;
+}
+.guitarrasElectricas main .instrumento1 p, .guitarrasElectricas main .instrumento4 p, .guitarrasElectricas main .instrumento3 p, .guitarrasElectricas main .instrumento2 p, .guitarrasAcusticas main .instrumento1 p, .guitarrasAcusticas main .instrumento4 p, .guitarrasAcusticas main .instrumento3 p, .guitarrasAcusticas main .instrumento2 p, .bajos main .instrumento1 p, .bajos main .instrumento4 p, .bajos main .instrumento3 p, .bajos main .instrumento2 p, .amp main .instrumento1 p, .amp main .instrumento4 p, .amp main .instrumento3 p, .amp main .instrumento2 p, .consignaciones main .instrumento1 p, .consignaciones main .instrumento4 p, .consignaciones main .instrumento3 p, .consignaciones main .instrumento2 p {
   margin-top: 15px;
 }
-
 .consignaciones {
-  font-family: "Montaga", serif;
-  text-align: center;
   background-color: rgb(252, 252, 252);
 }
 .consignaciones p {
   font-size: 21px;
+  font-family: "Montaga", serif;
+  text-align: center;
 }
 
 /*--------------------MAIN CONTACTO--------------------------*/
@@ -456,7 +443,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header main" "header main" "header footer";
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 1fr 1750px 1700px;
+    grid-template-rows: 1fr 1750px 1663px;
   }
   header .inicio {
     flex-wrap: wrap;
@@ -489,7 +476,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 4350px 1720px;
+    grid-template-rows: 920px 4350px 1740px;
   }
   header .inicio {
     align-items: center;
@@ -517,7 +504,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 4350px 1720px;
+    grid-template-rows: 920px 4350px 1620px;
   }
   header .inicio .buscador input {
     margin-left: 36px;
@@ -574,7 +561,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header main" "header footer";
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 1fr 850px;
+    grid-template-rows: 1fr 915px;
   }
   header .inicio {
     flex-wrap: wrap;
@@ -626,7 +613,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 4450px 800px;
+    grid-template-rows: 920px 4450px 870px;
   }
   header .inicio {
     align-items: center;
@@ -655,7 +642,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 4450px 800px;
+    grid-template-rows: 920px 4450px 900px;
   }
   main .container .instrumento1 iframe, main .container .instrumento2 iframe, main .container .instrumento3 iframe, main .container .instrumento4 iframe {
     width: 500px;
@@ -668,7 +655,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 4450px 800px;
+    grid-template-rows: 920px 4450px 900px;
   }
   header .inicio .buscador input {
     width: 200px;
@@ -682,7 +669,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 4450px 800px;
+    grid-template-rows: 920px 4450px 900px;
   }
   main h1.titulo.aos-init.aos-animate {
     font-size: 74px;
@@ -698,7 +685,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 1000px 4450px 1000px;
+    grid-template-rows: 1000px 4500px 930px;
   }
   header .inicio .buscador input {
     width: 150px;
@@ -717,7 +704,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 2350px 800px;
+    grid-template-rows: 920px 2350px 900px;
   }
 }
 /*-------------------------------Media Queries Bajos 767px-------*/
@@ -726,7 +713,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 2350px 800px;
+    grid-template-rows: 920px 2350px 900px;
   }
 }
 /*-------------------------------Media Queries Bajos 585px-------*/
@@ -735,7 +722,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 2350px 800px;
+    grid-template-rows: 920px 2350px 900px;
   }
 }
 /*-------------------------------Media Queries Bajos 523px-------*/
@@ -744,7 +731,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 2350px 800px;
+    grid-template-rows: 920px 2350px 900px;
   }
 }
 /*-------------------------------Media Queries Bajos 396px-------*/
@@ -762,7 +749,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 3400px 800px;
+    grid-template-rows: 920px 3400px 900px;
   }
 }
 /*-------------------------------Media Queries amp 767px-------*/
@@ -771,7 +758,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 3400px 800px;
+    grid-template-rows: 920px 3400px 900px;
   }
 }
 /*-------------------------------Media Queries amp 585px-------*/
@@ -780,7 +767,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 3400px 800px;
+    grid-template-rows: 920px 3400px 900px;
   }
 }
 /*-------------------------------Media Queries Amp 523px-------*/
@@ -789,7 +776,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 3500px 800px;
+    grid-template-rows: 920px 3500px 900px;
   }
 }
 /*-------------------------------Media Queries Amp 396px-------*/
@@ -807,7 +794,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 550px 800px;
+    grid-template-rows: 920px 550px 900px;
   }
 }
 /*-------------------------------Media Queries Consignaciones 767px-------*/
@@ -816,7 +803,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 650px 800px;
+    grid-template-rows: 920px 650px 900px;
   }
 }
 /*-------------------------------Media Queries Consignaciones 585px-------*/
@@ -825,7 +812,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 650px 800px;
+    grid-template-rows: 920px 650px 900px;
   }
 }
 /*-------------------------------Media Queries Consignaciones 523px-------*/
@@ -834,7 +821,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 920px 750px 800px;
+    grid-template-rows: 920px 750px 900px;
   }
 }
 /*-------------------------------Media Queries Consignaciones 396px-------*/
@@ -852,7 +839,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header main" "header main" "header footer";
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 1fr 1050px 1450px;
+    grid-template-rows: 1fr 1050px 1530px;
   }
   header .inicio {
     flex-wrap: wrap;
@@ -921,7 +908,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 940px 1400px 1500px;
+    grid-template-rows: 940px 1400px 1600px;
   }
   header .inicio .buscador input {
     width: 148px;

@@ -12,7 +12,7 @@ $bordeInstrumento: 3px double rgb(175, 175, 175);
 
     main{
 
-    .titulo{
+        .titulo{
 
         margin-top: 30px;
         font-family:$letraTitulo;
@@ -20,10 +20,10 @@ $bordeInstrumento: 3px double rgb(175, 175, 175);
         height: 140px;
         text-align: center;
         background-color: $fondoTitulo;
-}
-    }
+        }
+    
 
-    .instrumento1, .instrumento2, .instrumento3, .instrumento4 {
+    .instrumento1{
 
         display: flex;
         flex-direction: row;
@@ -36,20 +36,45 @@ $bordeInstrumento: 3px double rgb(175, 175, 175);
         font-family: $letraInstrumento;
         font-size:$tamanioLetraInstrumento;
         font-weight: bold;
-    } 
+    
 
-    img{
+        img{
         
         border-radius: 20px;
-    }
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        width: 250px;
+        transition: width 0.5s;
 
-    p{
+        &:hover{
+
+            width: 270px;
+        }
+        
+         }
+
+          p{
         margin-top: 15px;
+        }
+
+    }
+        .instrumento2{
+
+        @extend .instrumento1;
     }
 
-   
-    
-    }
+        .instrumento3{
+
+            @extend .instrumento1;
+        }
+
+        .instrumento4{
+
+        @extend .instrumento1;
+
+        }
+        
+}
+}
 
     .guitarrasAcusticas{
 
@@ -67,17 +92,22 @@ $bordeInstrumento: 3px double rgb(175, 175, 175);
         @extend .guitarrasElectricas;
     }
 
-    @mixin fontsize{
+    
 
-       p {font-size: 21px}
+    @mixin formatoConsignaciones{
+
+       p {
+        font-size: 21px;
+        font-family: $letraInstrumento;
+        text-align: center;
+        }
+       background-color: rgb(252, 252, 252);
     }  
 
+    
     .consignaciones{
 
         @extend .guitarrasElectricas;
-        font-family: $letraInstrumento;
-        text-align: center;
-       background-color: rgb(252, 252, 252);
-       @include fontsize();
+       @include formatoConsignaciones();
       
         }

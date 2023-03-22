@@ -9,7 +9,7 @@
                          "footer footer footer";
 
     grid-template-columns: 200px auto 1fr;
-    grid-template-rows: 240px 1950px 1550px;
+    grid-template-rows: 240px 1950px 1540px;
 
 }
 
@@ -23,59 +23,29 @@
                          "footer footer footer";
 
     grid-template-columns: 200px auto 1fr;
-    grid-template-rows: 240px 1fr 800px;
+    grid-template-rows: 240px 1fr 880px;
 
 
 
 }
 
 .guitarrasAcusticas {
-    min-height: 150vh;
-    display: grid;
-    grid-template-areas: "header header header"
-                         "main   main  main"
-                         "footer footer footer";
-
-    grid-template-columns: 200px auto 1fr;
-    grid-template-rows: 240px 1fr 800px;
+    @extend .guitarrasElectricas;
 }
 
 
 .bajos {
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: "header header header"
-                         "main   main  main"
-                         "footer footer footer";
-
-    grid-template-columns: 200px auto 1fr;
-    grid-template-rows: 240px 1fr 800px;
-
-
+    @extend .guitarrasElectricas;
 }
 
 
 .amp {
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: "header header header"
-                          "main   main  main"
-                         "footer footer footer";
-
-    grid-template-columns: 200px auto 1fr;
-    grid-template-rows: 240px 1fr 800px;
+    @extend .guitarrasElectricas;
 }
 
 
 .consignaciones {
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: "header header header"
-                          "main   main  main"
-                         "footer footer footer";
-
-    grid-template-columns: 200px auto 1fr;
-    grid-template-rows: 240px 450px 800px;
+    @extend .guitarrasElectricas;
 }
 
 .contacto {
@@ -86,5 +56,5 @@
             "footer footer footer";
 
     grid-template-columns: 200px auto 1fr;
-    grid-template-rows: 240px 1000px 1450px;
+    grid-template-rows: 240px 1000px 1480px;
 }

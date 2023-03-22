@@ -7,8 +7,7 @@ $colorBoton: white;
 $fondoBoton: black;
 $bordeBoton: 3px double white;
 $radioBoton: 30px;
-$sombraBoton: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
+$sombraBoton: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 $fondoBotonHover: rgb(150, 9, 9);
 $colorBotonHover: white;
 $bordeBotonHover: 3px double orange;
@@ -72,7 +71,7 @@ $colorBotonActivo: rgb(189, 16, 16);
     display: flex;
     text-decoration: none;
     margin-top: 170px;
-    width: 130px;
+    width: 150px;
     padding: 23px;
     justify-content: center;
     background-color: black;

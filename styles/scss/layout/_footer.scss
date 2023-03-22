@@ -80,7 +80,7 @@ $colorBotonActivo: rgb(189, 16, 16);
         }
 
 
-    }
+    
 
 
 
@@ -129,7 +129,7 @@ $colorBotonActivo: rgb(189, 16, 16);
         }
     }
 
-
+    }
     .redes {
 
         display: flex;
@@ -169,5 +169,19 @@ $colorBotonActivo: rgb(189, 16, 16);
         margin-top: 20px;
         color: white;
     }
+
+    .registro{
+        p{
+        text-align:center;
+        margin-top: 100px;
+        color: white;
+        background-color: black;
+        padding: 12px;
+        font-size: 15px;
+        }
+    }
+
+   
+
 
 }
