@@ -537,7 +537,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 960px 4500px 1820px;
+    grid-template-rows: 960px 4500px 1780px;
   }
   main .ultimosingresos {
     font-size: 64px;
