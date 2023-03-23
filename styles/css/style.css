@@ -902,13 +902,13 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     grid-template-rows: 920px 1300px 1520px;
   }
 }
-/*-------------------------------Media Queries Contacto 705px--------------------------------------------------*/
+/*-------------------------------Media Queries Contacto 419px--------------------------------------------------*/
 @media screen and (max-width: 419px) {
   .contacto {
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 940px 1400px 1650px;
+    grid-template-rows: 940px 1400px 1610px;
   }
   header .inicio .buscador input {
     width: 148px;
