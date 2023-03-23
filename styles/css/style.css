@@ -537,7 +537,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 960px 4500px 1760px;
+    grid-template-rows: 960px 4500px 1730px;
   }
   main .ultimosingresos {
     font-size: 64px;
@@ -908,7 +908,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 940px 1400px 1650px;
+    grid-template-rows: 940px 1400px 1630px;
   }
   header .inicio .buscador input {
     width: 148px;
