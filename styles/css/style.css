@@ -537,7 +537,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 960px 4500px 1780px;
+    grid-template-rows: 960px 4500px 1760px;
   }
   main .ultimosingresos {
     font-size: 64px;
@@ -685,7 +685,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 1000px 4500px 930px;
+    grid-template-rows: 1000px 4500px 1000px;
   }
   header .inicio .buscador input {
     width: 150px;
@@ -740,7 +740,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 970px 2350px 900px;
+    grid-template-rows: 970px 2350px 1000px;
   }
 }
 /*-------------------------------Media Queries amp 825px-----------------------------------------------*/
@@ -785,7 +785,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 970px 3500px 900px;
+    grid-template-rows: 970px 3500px 1000px;
   }
 }
 /*-------------------------------Media Queries Consignaciones 825px-----------------------------------------------*/
@@ -830,7 +830,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 970px 850px 900px;
+    grid-template-rows: 970px 850px 1000px;
   }
 }
 /*-----------------------------------Media Queries CONTACTO 1081px-----------------------------------------*/
@@ -908,7 +908,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 940px 1400px 1600px;
+    grid-template-rows: 940px 1400px 1650px;
   }
   header .inicio .buscador input {
     width: 148px;
