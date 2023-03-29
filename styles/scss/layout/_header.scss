@@ -20,7 +20,6 @@ header {
     background: linear-gradient($colorFondo1, $colorFondo2);
 
 
-
     .inicio {
         display: flex;
         flex-direction: row;
@@ -81,7 +80,11 @@ header {
 
 
     nav {
-        grid-area: nav;
+        grid-area: nav;  
+        
+        
+
+
 
         ul {
             display: flex;

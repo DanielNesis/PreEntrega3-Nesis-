@@ -28,7 +28,7 @@
   display: grid;
   grid-template-areas: "header header header" "main   main  main" "footer footer footer";
   grid-template-columns: 200px auto 1fr;
-  grid-template-rows: 240px 1000px 1480px;
+  grid-template-rows: 240px 1050px 1480px;
 }
 
 /*--------------------HEADER & NAV-----------------------*/
@@ -412,13 +412,15 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
 .mainContacto form fieldset legend {
   text-align: center;
   text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
 .mainContacto form fieldset .nombreyapellido, .mainContacto form fieldset .telefono, .mainContacto form fieldset .email {
   margin: 20px;
   margin-left: 10px;
 }
 .mainContacto form fieldset .nombreyapellido input, .mainContacto form fieldset .telefono input, .mainContacto form fieldset .email input {
-  width: 150px;
+  width: 250px;
   padding: 2.5px;
   transition: width 0.5s;
 }
@@ -428,11 +430,11 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
 .mainContacto .producto fieldset {
   margin-top: 20px;
 }
-.mainContacto .producto .guitarraelectrica, .mainContacto .producto .amplificador, .mainContacto .producto .bajo, .mainContacto .producto .guitarraacustica {
-  margin: 20px;
+.mainContacto .producto fieldset .guitarraelectrica, .mainContacto .producto fieldset .amplificador, .mainContacto .producto fieldset .bajo, .mainContacto .producto fieldset .guitarraacustica {
+  margin-top: 30px;
   margin-left: 10px;
 }
-.mainContacto .producto .comentario {
+.mainContacto .producto fieldset .comentario {
   margin-top: 50px;
   text-align: center;
 }
@@ -540,7 +542,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     grid-template-rows: 960px 4500px 1760px;
   }
   main .ultimosingresos {
-    font-size: 64px;
+    font-size: 65px;
     text-align: center;
   }
   #irAlFooter .footer .navFooter ul {
@@ -692,7 +694,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     margin-right: 70px;
   }
   main h1.titulo.aos-init.aos-animate {
-    font-size: 50px;
+    font-size: 65px;
   }
   main .container .instrumento1 iframe, main .container .instrumento2 iframe, main .container .instrumento3 iframe, main .container .instrumento4 iframe {
     width: 300px;
@@ -830,7 +832,7 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 970px 850px 1000px;
+    grid-template-rows: 970px 850px 900px;
   }
 }
 /*-----------------------------------Media Queries CONTACTO 1081px-----------------------------------------*/
@@ -908,12 +910,18 @@ main .guitarrasindex .item1 .consultarIndex:active, main .guitarrasindex .item6 
     min-height: 150vh;
     grid-template-areas: "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 940px 1400px 1610px;
+    grid-template-rows: 940px 1460px 1580px;
   }
   header .inicio .buscador input {
-    width: 148px;
+    width: 150px;
   }
-  .mainContacto form .producto .guitarraelectrica select, .mainContacto form .producto .guitarraacustica select, .mainContacto form .producto .bajo select, .mainContacto form .producto .amplificador select {
+  .mainContacto form fieldset .nombreyapellido, .mainContacto form fieldset .email, .mainContacto form fieldset .telefono {
+    text-align: center;
+  }
+  .mainContacto form fieldset .nombreyapellido input:focus, .mainContacto form fieldset .email input:focus, .mainContacto form fieldset .telefono input:focus {
+    width: 250px;
+  }
+  .mainContacto form .producto .guitarraelectrica select, .mainContacto form .producto fieldset .guitarraacustica select, .mainContacto form .producto fieldset .bajo select, .mainContacto form .producto fieldset .amplificador select {
     width: 280px;
   }
 }
